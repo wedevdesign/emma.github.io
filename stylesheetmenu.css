@@ -303,10 +303,6 @@ li {
     text-shadow: none;
 }
 
-.videoHome {
-    margin-top: 50%;
-}
-
 
 /*Media Object Module*/
 
@@ -378,8 +374,8 @@ GALLERY========GALLERY=====GALLERY=====GALLERY========GALLERY
 }
 
 .boxInner img {
-    margin: 5px 5px;
     width: 100%;
+    margin: 5px 5px;
 }
 
 .boxInner .titleBox {
@@ -425,7 +421,7 @@ body.touch .boxInner.touchFocus .titleBox {
     .box {
         width: 100%;
         padding-bottom: 100%;
-        margin-top: -10px;
+        margin: -10px 10px 0px 10px;
     }
 }
 
