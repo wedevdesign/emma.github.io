@@ -46,15 +46,6 @@ body {
     background-color: black;
 }
 
-html,
-body {
-    height: 100%
-}
-
-DOCTYPE {
-    min-height: 100%;
-}
-
 .container {
     padding-right: auto;
     padding-left: auto;
