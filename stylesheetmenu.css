@@ -139,6 +139,11 @@ a#home:before {
     font-size: 30px;
 }
 
+.videoHome {
+    position: relative;
+    margin: 350px 20px;
+}
+
 .heading {
     color: mediumaquamarine;
     text-align: center;
