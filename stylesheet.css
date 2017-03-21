@@ -174,10 +174,12 @@ Modules
     }
 }
 
+
 /*Navigation Modules*/
 
 li {
     margin: 0px 0px 15px 0px;
+    text-decoration: none;
 }
 
 .navBox {

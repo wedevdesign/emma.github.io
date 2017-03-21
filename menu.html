@@ -1,42 +1,272 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en-au">
 
 <head>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo Reel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Gallery</title>
     <link rel="stylesheet" href="stylesheetmenu.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- Enable media queries for old IE -->
+    <!--[if lt IE 9]>
+   <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
 
 </head>
 
 <body class="no-touch">
-    <div class="container">
 
+    <header class="header-primary">
+        <h1 class="heading">Emma Jensen</h1>
+        <a href="index.html" id="home">HOME</a>
+    </header>
+    <h2>Emma's bio</h2>
+    <h3>Emma Jensen is an actor</h3>
+    <p>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah blah blahblah blah blah blah blah blahblah blah blah blah blah blah blah blah blah
+        blah blah blahblah blah blah blah blah blahblah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah blah blahblah blah blah blah blah blahblah blah blah blah blah
+        blah blah blah blah blah blah blahblah blah blah blah blah blahblah blah blah blah blah blahblah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah blah blahblah blah blah blah blah blah blah blah blah blah blah blahblah
+        blah blah blah blah blahblah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah blah blahblah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah blah blah
 
-        <!--GOOGLE ANALYTICs-->
-        <script>
-            (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function() {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o),
-                    m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        <a href="menu.html" id="top">TOP</a>
+        <main>
+            <h2>Gallery</h2>
+            <div class="wrap">
 
-            ga('create', 'UA-93982510-1', 'auto');
-            ga('send', 'pageview');
-        </script>
-
-        <iframe src="http://www.imdb.com/video/user/vi422032921/imdb/embed?autoplay=false&width=480" width="480" height="270" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" frameborder="no" scrolling="no"></iframe>
-
+                <!-- BLANK FOR ADDING NEW PICS:
+  ===============================
+  <div class="box">
+  <div class="boxInner">
+      <img class="gallery-img" 
+      alt="" 
+      src="" />
+      <div class="titleBox"></div>
     </div>
+  </div>
+  =================================
+   -->
+
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMzc1NTM5NzYyN15BMl5BanBnXkFtZTgwMzUwODI0MDI@._V1_SY1000_CR0,0,599,1000_AL_.jpg" />
+                        <div class="titleBox">Mug shot</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Modeling archive" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NjI1NDAzM15BMl5BanBnXkFtZTgwNTE1MjA2OTE@._V1_.jpg" />
+                        <div class="titleBox">Modeling archive</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen acting" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjA1ODY1NzgwN15BMl5BanBnXkFtZTgwMTE1MjA2OTE@._V1_.jpg" />
+                        <div class="titleBox">Acting archive</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen Sydney" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4ODgyNzU5Ml5BMl5BanBnXkFtZTgwNzA1MjA2OTE@._V1_.jpg" />
+                        <div class="titleBox">Just lazing about</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen Swimming" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTk1NTM3NTE2MV5BMl5BanBnXkFtZTgwMDQ0MjA2OTE@._V1_.jpg" />
+                        <div class="titleBox">Swim</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTcxMDQwMDA1Ml5BMl5BanBnXkFtZTgwNjM0MjA2OTE@._V1_.jpg" />
+                        <div class="titleBox">Waiting for the bus</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTk0MjM4MTQyN15BMl5BanBnXkFtZTgwNTU1MTA2OTE@._V1_SY1000_SX800_AL_.jpg" />
+                        <div class="titleBox">Mugshot, Police archives</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTA4NzY5MzgxMTReQTJeQWpwZ15BbWU4MDQyNTEwNjkx._V1_SY1000_SX800_AL_.jpg" />
+                        <div class="titleBox">Straight up, mugshot</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen" src="https://images-na.ssl-images-amazon.com/images/M/MV5BNDkxNzU4MTQxOV5BMl5BanBnXkFtZTgwMjA1MTA2OTE@._V1_.jpg" />
+                        <div class="titleBox">The tap dancer :')</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="emma jensen" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjI5OTA5MDkzOV5BMl5BanBnXkFtZTgwODg0MTA2OTE@._V1_.jpg" />
+                        <div class="titleBox">waiting 2hrs before swimming after sneakers</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen actor" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ3NDg2OTEzNF5BMl5BanBnXkFtZTgwMzc0MTA2OTE@._V1_.jpg" />
+                        <div class="titleBox">Nickleback</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTUyNjY2NjI3N15BMl5BanBnXkFtZTgwNTQ0MTA2OTE@._V1_.jpg" />
+                        <div class="titleBox">Blue steal</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen acting" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjI4NjU4MDgyOV5BMl5BanBnXkFtZTgwNzI0MTA2OTE@._V1_.jpg" />
+                        <div class="titleBox">Black dog, short film</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTk3MTQ4ODg1Ml5BMl5BanBnXkFtZTgwMjI0MTA2OTE@._V1_SY1000_CR0,0,666,1000_AL_.jpg" />
+                        <div class="titleBox">Hej Hej</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen model shot" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTg3ODU0MTU2Nl5BMl5BanBnXkFtZTgwMTI0MTA2OTE@._V1_.jpg" />
+                        <div class="titleBox">Back in the 60's</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="emma jensen acting" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTY2NTEwMzg1NV5BMl5BanBnXkFtZTgwODE0MTA2OTE@._V1_.jpg" />
+                        <div class="titleBox">Tim the tool man</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4NTk3MDA1MV5BMl5BanBnXkFtZTgwNDE0MTA2OTE@._V1_.jpg" />
+                        <div class="titleBox">sitting</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTU3MzI5NzgxMV5BMl5BanBnXkFtZTgwMTgzMTA2OTE@._V1_.jpg" />
+                        <div class="titleBox">Emma having a look</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma's modeling pics" src="https://images-na.ssl-images-amazon.com/images/M/MV5BNjk2OTc1NjAyOF5BMl5BanBnXkFtZTgwMDgzMTA2OTE@._V1_.jpg" />
+                        <div class="titleBox">Damm, well one of us will hafto change!</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen modeling" src="https://images-na.ssl-images-amazon.com/images/M/MV5BNjY3MjMxNTUyOV5BMl5BanBnXkFtZTgwNDYzMTA2OTE@._V1_.jpg" />
+                        <div class="titleBox">Some more from the modeling archives</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="emma jensen" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTgzNjU2NTIzOF5BMl5BanBnXkFtZTgwMjMzMTA2OTE@._V1_.jpg" />
+                        <div class="titleBox">Sleep walker</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma homeless" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwNDI4NTk4MV5BMl5BanBnXkFtZTgwNzIzMTA2OTE@._V1_.jpg" />
+                        <div class="titleBox">started from the bottom</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma and other homeless people" src="https://images-na.ssl-images-amazon.com/images/M/MV5BOTA1MDExNDUzMF5BMl5BanBnXkFtZTgwMDgyMTA2OTE@._V1_.jpg" />
+                        <div class="titleBox">Homeless</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen between shot's'" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ5ODU2MjMzOF5BMl5BanBnXkFtZTgwNjcyMTA2OTE@._V1_.jpg" />
+                        <div class="titleBox">Between shot's</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen" src="https://images-na.ssl-images-amazon.com/images/M/MV5BOTA3OTU2NDQ2Ml5BMl5BanBnXkFtZTgwNDcyMTA2OTE@._V1_.jpg" />
+                        <div class="titleBox">I really like this one</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTc1NzA0ODA1N15BMl5BanBnXkFtZTgwMjYyMTA2OTE@._V1_.jpg" />
+                        <div class="titleBox">White face</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen" src="https://images-na.ssl-images-amazon.com/images/M/MV5BNjQzNjA3NDIxNl5BMl5BanBnXkFtZTgwNDUyMTA2OTE@._V1_.jpg" />
+                        <div class="titleBox">Having a sit</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="" src="" />
+                        <div class="titleBox"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxInner">
+                        <img class="gallery-img" alt="Emma Jensen" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjEzNDc2MTU2Nl5BMl5BanBnXkFtZTgwMjkxMTA2OTE@._V1_.jpg" />
+                        <div class="titleBox">Before Garnier Fructis</div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </main>
+        <section class="background-quinary">
+            <div class="row">
+                <div class="remove-gutter-xs">
+                    <div class="media">
+                        <div class="media-body">
+
+                            <div class="media-item">
+                                <a href="index.html">
+                                    <i class="fa fa-home"></i>
+                                </a>
+
+
+                                <a href="mailto:emma'semail@gmail.com?Subject=">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+
+        </footer>
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                        // See if this is a touch device
+                        if ('ontouchstart' in window) {
+                            // Set the correct [touchscreen] body class
+                            $('body').removeClass('no-touch').addClass('touch');
+
+                            // Add the touch toggle to show text when tapped
+                            $('div.boxInner img').click(function() {
+                                $(this).closest('.boxInner').toggleClass('touchFocus');
+                            });
+        </script>
 </body>
 
 </html>

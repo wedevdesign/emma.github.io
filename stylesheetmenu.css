@@ -6,7 +6,6 @@ Reset
 ****************************
 ***************************/
 
-@import 'normalize.css';
 
 /* Change all elements to use border-box */
 
@@ -37,12 +36,9 @@ body {
     margin-left: 1px;
     padding: 0px;
     overflow-x: hidden;
-    color: red;
+    color: antiquewhite;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
+    font-family: Helvetica, sans-serif;
     background-color: black;
 }
 
@@ -113,6 +109,85 @@ body {
 }
 
 
+/*HEADING*/
+
+a#top:before {
+    font-family: FontAwesome;
+    content: "\f151";
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+#top {
+    font-size: 20px;
+    color: antiquewhite;
+    margin: 20px 20px;
+    position: absolute;
+    z-index: 3;
+}
+
+#home {
+    font-size: 20px;
+    color: antiquewhite;
+    margin: 20px 20px;
+}
+
+a#home:before {
+    font-family: FontAwesome;
+    content: "\f015";
+    color: red;
+    font-size: 30px;
+}
+
+.heading {
+    color: mediumaquamarine;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    background-color: transparent;
+    margin-left: 10%;
+    margin-top: 0px;
+    margin-right: 10%;
+}
+
+.header-primary {
+    position: relative;
+}
+
+@media only screen and (min-width:650px) {
+    .heading {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .heading {
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 50px;
+    }
+}
+
+
+/*iPad*/
+
+@media only screen and (min-height:1024px) and (min-width:768px) {
+    .heading {
+        font-size: 3em
+    }
+}
+
+
+/*iPad pro*/
+
+@media only screen and (min-height:1366px) and (min-width:1024px) {
+    .heading {
+        font-size: 6em;
+    }
+}
+
+
 /*Logo Modules*/
 
 .logo {
@@ -137,6 +212,8 @@ iframe {
 
 li {
     margin: 0px 0px 15px 0px;
+    text-decoration: none;
+    list-style: none;
 }
 
 .navBox {
@@ -297,6 +374,7 @@ GALLERY========GALLERY=====GALLERY=====GALLERY========GALLERY
 }
 
 .boxInner img {
+    margin: 5px 5px;
     width: 100%;
 }
 
