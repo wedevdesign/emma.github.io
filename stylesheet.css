@@ -40,12 +40,12 @@ body {
 }
 
 body {
-    background-color: lightgrey;
+    background-color: #000;
     font-family: 'Permanent Marker', cursive;
     text-shadow: 1px 1px 1px black;
-    background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMjA1ODY1NzgwN15BMl5BanBnXkFtZTgwMTE1MjA2OTE@._V1_.jpg");
+    background-image: url("emmapic.jpg");
     background-attachment: fixed;
-    background-position: left;
+    background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
     overflow: hidden;
@@ -130,7 +130,7 @@ Modules
 .heading {
     margin-top: 0px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 0px;
     background-color: transparent;
     margin-left: 0%;
@@ -141,9 +141,9 @@ Modules
     position: relative;
 }
 
-@media only screen and (min-width:650px) {
+@media only screen and (min-width:600px) {
     .heading {
-        margin-top: 10px;
+        margin-top: 0px;
         font-size: 30px;
     }
 }
@@ -152,7 +152,7 @@ Modules
     .heading {
         margin-top: 0px;
         padding-top: 0px;
-        font-size: 50px;
+        font-size: 30px;
     }
 }
 
@@ -249,12 +249,12 @@ li {
 
 #menu:hover {
     text-decoration: underline;
-    color: darkred;
+    color: darkorange;
 }
 
 #play:hover {
     text-decoration: underline;
-    color: darkred;
+    color: darkorange;
 }
 
 #menu {
@@ -267,4 +267,5 @@ li {
     color: red;
     font-family: 'Permanent Marker', cursive;
     text-shadow: none;
+    text-decoration: none;
 }
